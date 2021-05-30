@@ -14,7 +14,7 @@ import numpy as np
 np.set_printoptions(suppress=True)
 
 #Cargar el modelo hecho en Teachable Machine con data de Kaggle
-model= tensorflow.keras.models.load_model('/keras_model.h5')
+model= tensorflow.keras.models.load_model('/saved_model.pb')
 
 #Crear un array del tamaño correcto para cargar al modelo de keras
 #El largo de las imágenes que se pueden poner en el array está determinado por la primera posición de la tupla de forma.
