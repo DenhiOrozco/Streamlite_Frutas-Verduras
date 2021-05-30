@@ -6,14 +6,6 @@ with siteHeader:
     st.markdown(""" En este proyecto se busca poder subir una imagen de una fruta o verdura y dejar que el modelo identifique qué es entre las siguientes frutas y verduras:""")
     
 
-    
-st.markdown(""" <style>
-.main {
-background-color: #AF9EC;
-}
-</style>""",
-unsafe_allow_html=True)
-
 import tensorflow.keras
 from PIL import Image, ImageOps 
 import numpy as np
