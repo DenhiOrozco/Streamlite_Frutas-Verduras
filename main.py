@@ -1,4 +1,3 @@
-pip install keras streamlit pillow numpy
 import streamlit as st
 import keras
 from PIL import Image, ImageOps
