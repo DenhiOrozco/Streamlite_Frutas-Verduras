@@ -1,6 +1,6 @@
 import streamlit as st
 import keras
-from PIL import Image, ImageOps
+
 import numpy as np
 
 siteHeader = st.beta_container()
